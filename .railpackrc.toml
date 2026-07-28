@@ -1,0 +1,3 @@
+# .railpackrc.toml — belt-and-suspenders (sql.js needs none of these, but safe to have)
+[install]
+nixpkgs = ["python3"]
