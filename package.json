@@ -1,0 +1,17 @@
+{
+  "name": "Aegis",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Aegis Sovereign DeFi Protocol",
+  "engines": { "node": ">=20.0.0" },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=120 --expose-gc src/index.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0",
+    "express": "^4.18.3",
+    "ws": "^8.18.0",
+    "sql.js": "^1.12.0"
+  }
+}
