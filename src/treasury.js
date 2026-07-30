@@ -15,7 +15,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const require   = createRequire(import.meta.url)
 
 // ── CONSTANTS ──────────────────────────────────────────────────────────────────
-const REF_PREFIX = '(system) Operator: Bun Omar SECKA'
+const REF_PREFIX = 'Aegis Operator: Bun Omar SECKA'
 const YIELD_TIERS = [
   { name:'Aave V3 Supply',   apy:0.065,  share:0.20, recall:'instant',   protocol:'aave'  },
   { name:'Ondo USDY',        apy:0.042,  share:0.50, recall:'24h',       protocol:'ondo'  },
