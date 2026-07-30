@@ -4,7 +4,7 @@
 
 const BASE_LIVE = 'https://api.modempay.com/v1'
 const BASE_TEST = 'https://api.test.modempay.com/v1'
-const REF       = '(system) Operator: Bun Omar SECKA'
+const REF       = 'Aegis Operator: Bun Omar SECKA'
 const FEES      = { wave:0.015, afrimoney:0.015, qmoney:0.015, bank:0.0125, international:0.0125, crypto:0.01 }
 
 function getKey()  { return (process.env.MODEMPAY_SECRET_KEY || '').trim().replace(/^["']|["']$/g,'') }
